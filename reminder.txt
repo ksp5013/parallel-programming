@@ -1,2 +1,2 @@
-一般程式的計時方法不通用於multithread上
+一般程式的計時方法不適用於multithread上
 multithread有另外一個計時方法
