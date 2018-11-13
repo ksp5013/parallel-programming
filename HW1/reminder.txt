@@ -1,0 +1,8 @@
+一般程式的計時方法不適用於multithread上
+multithread有另外一個計時方法
+
+pi : 為使用mutex的方法
+pi_S : 為使用semaphore的方法
+pi_v3 : 將rand改用rand_r，解決rand中有lock導致multithread速度變慢
+pi_v4 : 更改計時方法
+final_pi : 調整格式，最後成品
