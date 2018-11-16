@@ -13,7 +13,7 @@ float* Jacobi_it(float** A, int ASize, float* b, float* u_f, float w, float TOL,
 				if(i != j)
 					temp += A[i][j] * u_f[i];
 			}
-			New_u_f[i] = w * (b[i] - temp) / A[i][i] + (1-w) * u_f[i];
+			New_u_f[i] = w * (b[i] - temp) / A[i][i] + (1-w) * u_f[j];
 		}
 		
 		printf("Jacobi_it\n");
