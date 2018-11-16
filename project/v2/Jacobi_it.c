@@ -1,10 +1,10 @@
 #include "function.h"
 
-float* Jacobi_it(float** A, int ASize, float* b, float* u_f, float w, float TOL, int itmax) {
+double* Jacobi_it(double** A, int ASize, double* b, double* u_f, double w, double TOL, int itmax) {
 	int i,j;
 	int nit=1;
-	float *New_u_f;
-	New_u_f = (float*)malloc(sizeof(float)*ASize);
+	double *New_u_f;
+	New_u_f = (double*)malloc(sizeof(double)*ASize);
 	
 	while(nit <= itmax) {
 		for(i=0; i<ASize; i++) {
