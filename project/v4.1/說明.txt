@@ -1,0 +1,14 @@
+
+絪亩cmdゴ gcc gen_restric.c Jacobi_it.c matlab_op.c MG.c test_MG.c -o test_MG
+
+и瞷р把计糶﹚祘Α絏柑ぇэ
+
+把计㏕﹚把计
+
+ち4单だ
+
+A癸à絬1 癸à絬娩-1 ㄤ緇0
+
+F 0.5
+
+w倒0.5
